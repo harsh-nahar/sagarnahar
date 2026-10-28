@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="मैने अपनी पिछली प्रविष्‍टी में मैने ब्लॉगरोल को घूमता हुआ दिखाने के लिये एक HTML कोड बताया था जिसको अपनने चिट्ठे के साईडबार में जोड़ देने से ब्लॉग रोल घूमने लग जाता था। उस पोस्ट में">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self'; media-src 'none'; frame-src https://www.youtube-nocookie.com https://player.vimeo.com https://w.soundcloud.com https://archive.org; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="color-scheme" content="light dark"><title>फायरफॉक्स वाले भी ब्लॉगरोल सुधारें · The Blog Archive</title>
+<script src="../../../theme.js"></script>
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="preload" href="../../../fonts/inter-v20-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../../fonts/inter-v20-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../../style.css"><script src="../../../app.js" defer></script></head>
+<body class="inner-page"><a class="skip" href="#main">Skip to content</a><header class="site-header"><div class="nav-inner"><a class="brand" href="../../../index.html">Sagar Nahar archive</a><nav aria-label="Main"><a href="../../../index.html#collections">blogs</a><a href="../../../search.html">search</a><a href="../../../report.html">notes</a><button type="button" class="theme-toggle" aria-label="Change color theme">
+<svg class="theme-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+<svg class="theme-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.9 13A9 9 0 1 1 11 3.1a7 7 0 0 0 9.9 9.9Z"/></svg></button></nav></div></header>
+<main id="main"><div class="reading-head">
+<h1>फायरफॉक्स वाले भी ब्लॉगरोल सुधारें</h1><div class="article-meta"><p class="eyebrow">2007-10-24 · 3 min read</p><a href="https://nahar.wordpress.com/2007/10/24/blogroll-for-fire-fox/" target="_blank" rel="noopener noreferrer">original post</a></div><p class="byline">By सागर नाहर · <a href="../index.html">दस्तक</a> · Preserved 2026-10-28</p><div class="tags"><span class="tag">तकनीकी</span><span class="tag">technology</span><span class="tag">तकनीक</span><span class="tag">Blogroll</span><span class="tag">favouates links</span><span class="tag">technic</span></div></div>
+<article class="prose reading-content"><p>मैने अपनी <a href="448.html#comment-1565" rel="noreferrer">पिछली प्रविष्‍टी</a> में मैने ब्लॉगरोल को घूमता हुआ दिखाने के लिये एक HTML  कोड  बताया था जिसको अपनने चिट्ठे के  साईडबार में जोड़ देने से ब्लॉग रोल घूमने लग जाता था। उस पोस्ट में दो परेशानी थी  पहली यह कि यह कोड  फायरफोक्स में नहीं चलता था।  और दूसरी यह कि बहुत ज्यादा तकनीकी हो गई थी, रही कसर वर्डप्रेस ने  कोड अपनी सुविधा के अनुसार बदल कर करदी।:(</p>
+<p>मुझे कई मित्रों ने  चैट और मेल पर  बताया कि वे इस कोड को अपने चिट्ठे पर लगाने की कोशिश कर रहे है परन्तु  अभी तक सफल नहीं हुए; तो कुछ मित्रों की परेशानी यह थी कि वे सिर्फ फायरफाक्स  प्रयोग करते  हैं।  तो आखिर बहुत मेहनत के बाद एक ऐसा कोड मिल ही गया जिसको  ब्लॉगरोल के साथ जोड़ने पर फायरफोक्स में भी  चिट्ठे को देखने पर  ब्लॉगरोल  घूमता हुआ नजर आयेगा।</p>
+<p>जब में इस कोड पर कई घंटे  प्रयोग करने के बाद सफल नहीं हो पाया तब <a href="http://itsme.wordpress.com/" target="_blank" rel="noopener noreferrer">अमित गुप्‍ता </a>जी मदद के लिये सामने आये और उन्होने एक कोड बताया जिससे कुछ हद तक बड़े ब्लॉगरोल की समस्या हल हो जाती थी।  इस कोड को जोड़ने पर  ब्लॉगरोल के साईड में एक स्क्रोलर आ जाता था  जिसको घुमाने से ब्लॉगरोल के लिंक उपर नीचे किये जा सकते थे।</p>
+<p><strong>चित्र देखिये</strong></p>
+<p><a title="1.jpg" href="../../../media/c46d7652985aa79dac70f61061ec8f343d572f69c702a2d57181db546c2358a7.jpg" rel="noreferrer"><img src="../../../media/c46d7652985aa79dac70f61061ec8f343d572f69c702a2d57181db546c2358a7.jpg" alt="1.jpg" loading="lazy" decoding="async"></a></p>
+<p>मुझे   संतोष नहीं था, मैं चाहता था ब्लॉगरोल का यह कोड फायरफोक्स में चलने  के साथ साथ उनके लिंक भी नीचे से उपर या उपर से नीचे घूमते हुए होने चाहिये ताकि  पाठक  को  (स्क्रोल) घुमाना ना पड़े।</p>
+<p>आखिरकार थोड़ी और मेहनत करने के बाद मैने अमित जी के दिये कोड को और मेरे पिछले कोड को मिला दिया और नया कोड जो बना  वह  फायरफोक्स में भी बिल्कुल सही चलने लगा। नया कोड इस पोस्ट में सबसे नीचे दिया है।</p>
+<p>****</p>
+<p>यह पोस्ट लिख ही रहा था कि पिछली पोस्ट पर श्री हरिरामजी   की टिप्पणी मिली कि क्या इसमें इमेज को भी इस तरह मर्क किया जा सकता है?</p>
+<p>जी हरिरामजी बिल्कुल इसमें  इमेज को भी आसानी से मर्क किया जा सकता है। आप सब की जानकारी के लिये मैने हिन्दी चिट्ठाजगत के तीनो एग्रीग्रेटर, <a href="http://radiovani.blogspot.com" target="_blank" rel="noopener noreferrer">रेडियोवाणी </a>और मेरी  <a href="../../mahaphil/index.html" rel="noreferrer">गीतों की महफिल</a> के लोगो को  यहाँ घूमते हुए बताया है, जिससे बहुत सारे लोगो भी हों तो भी साईडबार ज्यादा जगह नहीं घेरेगा।<br>
+नीचे लिखे शब्द  marquee.txt पर क्लिक कीजिये, कॉपी कीजिये  या राईट क्लिक कर save as  कर सेव कर लीजिय।अब कॉपी किये हुए  कोड    <a href="http://lang.ojnk.net/hindi/unifix.html" target="_blank" rel="noopener noreferrer">यहाँ</a> पेस्ट करने के बाद Fix it  पर क्लिक कीजिये और परिणाम देख लीजिये।</p>
+<p><a title="marquee.txt" href="https://nahar.wordpress.com/wp-content/uploads/2007/10/marquee.txt" target="_blank" rel="noopener noreferrer">marquee.txt</a></p>
+<p>इस कोड में मैने खिड़की की साईज 200px  रखी है आप  इसे कम या ज्यादा कर सकते हैं। scrollamount=”5″ मैने 5  रखी है आप इसे कम ज्यादा कर घूमने की गति को बढ़ा या घटा सकते हैं।</p>
+<p>****</p>
+<p>अब नीचे  ब्लोगरोल के  नये कोड को अपलोड कर रहा हूँ जिसे आप  सेव कर या कॉपी कर ( उपर बताये अनुसार)   साईडबार में अपने  पसंदीदा लिंक से बदल कर  लगा दीजिये और देखिये कमाल.. .. अब यह नया ब्लोगरोल  फायर फोक्स में भी घूम रहा है।</p>
+<p><a title="new-blogroll-1.txt" href="https://nahar.wordpress.com/wp-content/uploads/2007/10/new-blogroll-1.txt" target="_blank" rel="noopener noreferrer">new-blogroll-1.tx</a></p>
+<pre>&lt;div style=&quot;width:250px; height:300px; overflow:auto; white-space:normal;&quot;&gt;
+  &lt;div class=&quot;widget-content&quot;&gt;
+&lt;marquee direction=&quot;up&quot; onmouseover=&quot;this.stop()&quot; width=&quot;100%&quot; onmouseout=&quot;this.start()&quot; scrollamount=&quot;5&quot; height=&quot;150&quot; align=&quot;center&quot;&gt;
+
+     &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.epandit.blogspot.com/&quot; target=&quot;_blank&quot;&gt;ई- पण्डित&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a href=&quot;http://mahaphil.blogspot.com&quot; target=&quot;_new&quot;&gt;गीतों की महफिल&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://hindini.com/fursatiya/&quot; target=&quot;_new&quot;&gt;फुरसतिया&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://diaryofanindian.blogspot.com&quot; target=&quot;_new&quot;&gt;अनिल रघुराज की डायरी&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kakesh.com&quot; target=&quot;_new&quot;&gt;काकेश की कतरनें&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jitu.info/merapanna&quot; target=&quot;_new&quot;&gt;जीतू का पन्ना&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://udantashtari.blogspot.com&quot; target=&quot;_new&quot;&gt;उड़नतश्तरी&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.kalpana.it/hindi/blog&quot; target=&quot;_new&quot;&gt;जो डॉ सुनील ही कह सके&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href=&quot;http://ankurthoughts.blogspot.com//&quot; target=&quot;_blank&quot;&gt;अंकुर गुप्ता&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://raviratlami.blogspot.com/&quot; target=&quot;_blank&quot;&gt;रवि रतलामी&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/marquee&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+<p>इन दोनो कोड का  चलता फिरता और घुमता हुआ नमूना आप मेरे इस  <a href="http://testchittha.blogspot.com/" target="_blank" rel="noopener noreferrer">प्रयोग चिट्ठे</a> पर देख सकते हैं।</p>
+<p>इस पोस्ट को लिखने में मदद करने के लिये अमित जी का बहुत बहुत धन्यवाद।</p></article>
+<section class="discussion" id="comments"><p class="eyebrow">THE CONVERSATION, PRESERVED</p><h2>11 comments</h2><p class="muted">Read-only. Names and wording belong to the original contributors.</p><article class="comment" id="c1572"><span id="comment-1572"></span>
+<header><strong>प्रमेन्‍द्र प्रताप सिंह</strong><time>2007-10-24</time></header><div class="prose"><p>जी, प्रयास किया जायेगा। अच्‍छी क्‍लास चला रहे है आप</p></div></article><article class="comment" id="c1574"><span id="comment-1574"></span>
+<header><strong>sanjay bengani</strong><time>2007-10-24</time></header><div class="prose"><p>ठीक है भाई, लगता है प्रयोग करना ही पड़ेगा वरना क्लास लेते रहेंगे 🙂 </p>
+<p>अपनी क्लास जारी रखें, नई उपयोगी बाते जानने को मिलती है.</p></div></article><article class="comment" id="c1575"><span id="comment-1575"></span>
+<header><strong>sanjay bengani</strong><time>2007-10-24</time></header><div class="prose"><p>आपका मार्कि tarakashi.blogspot.com पर लगाया है, मगर फिक्स इट करना रह गया. अभी करता हूँ बाकि चकाचक है.</p></div></article><article class="comment" id="c1577"><span id="comment-1577"></span>
+<header><strong>रवि</strong><time>2007-10-24</time></header><div class="prose"><p>बढ़िया, काम की जानकारी दी है आपने.</p></div></article><article class="comment" id="c1578"><span id="comment-1578"></span>
+<header><strong>रवि</strong><time>2007-10-24</time></header><div class="prose"><p>जांच करने पर देखा कि माउस ओवर करने पर वह रुकता नहीं है. जिससे कि लिंक पर क्लिक करने में असुविधा होती है. क्या कोड में फेरबदल कर माउस ओवर में स्क्रॉल बंद हो जाए ऐसा किया जा सकता है? यदि ऐसा हो जाए तो बहुत बढ़िया. और ऐसा जुगाड़ ब्लॉगर के लिए भी बताएँ.</p></div></article><article class="comment" id="c1579"><span id="comment-1579"></span>
+<header><strong>समीर लाल</strong><time>2007-10-24</time></header><div class="prose"><p>चलते हैं. बस नमस्ते करने आये थे. जारी रहें. 🙂</p></div></article><article class="comment" id="c1580"><span id="comment-1580"></span>
+<header><strong>Dr Prabhat Tandon</strong><time>2007-10-24</time></header><div class="prose"><p>अरे वाह , यह तो वाकई मे घूम रहा है 🙂 मगर क्या वर्ड्प्रेस वाले भाईसाहब इसकी इजाजत देगें 🙂</p></div></article><article class="comment" id="c1584"><span id="comment-1584"></span>
+<header><strong>kakesh</strong><time>2007-10-25</time></header><div class="prose"><p>धन्यवाद जी हमने भी लगा लिया जी.</p></div></article><article class="comment" id="c1641"><span id="comment-1641"></span>
+<header><strong>आनंद</strong><time>2007-11-08</time></header><div class="prose"><p>धन्‍यवाद नाहर भाई, यह तो चल रहा है। बहुत बहुत धन्‍यवाद अमित जी।</p></div></article><article class="comment" id="c1756"><span id="comment-1756"></span>
+<header><strong>Punit Omar</strong><time>2007-11-23</time></header><div class="prose"><p>अच्छी जानकारी है. मुझे वाकई में नहीं पता था की ये कैसे लगते हैं. देखिये, अपनी पसंद के चिट्ठे की सूची बना लूँ फ़िर मैं भी लगता ह ऐसा ही कुछ.</p></div></article><article class="comment" id="c1784"><span id="comment-1784"></span>
+<header><strong>हर्षवर्धन</strong><time>2007-12-01</time></header><div class="prose"><p>सागर भाई<br>
+मैंने भी अपने ब्लॉग पर सबको घुमा दिया है।</p></div></article></section></main><footer><a href="../../../report.html">preservation notes</a><p>Original voices, preserved. Extraction and archive site built entirely by AI.<br>Media loads only when requested.</p><a href="https://harshnahar.com/" target="_blank" rel="noopener noreferrer">design from harshnahar.com</a></footer></body></html>

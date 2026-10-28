@@ -1,0 +1,2846 @@
+{
+  "generated_at": "2026-10-28T16:37:44.801374+00:00",
+  "scope": "Public feeds, sitemaps, static pages, and comments; raster images attempted. Not an owner export or a complete platform backup.",
+  "limitations": [
+    "Deleted, private, draft, moderated, and feed-omitted content cannot be recovered from public feeds.",
+    "Likes, reactions, follower lists, original themes, sidebar widgets, and platform accounts are not captured.",
+    "Feed counts matching does not prove that the platform exposes all content. Counts can change while crawling.",
+    "Comment reply relationships are retained when exposed by the source; inferred or unavailable relationships are not invented.",
+    "Supported YouTube, Vimeo, SoundCloud, and Internet Archive players stream only after a click; recordings are not downloaded. Provider tracking or ads may apply after loading. Other legacy/Flash players remain links and may be dead.",
+    "Empty layout paragraphs and excessive blank lines are normalized for reading; original source HTML remains unchanged in the saved archive data.",
+    "Only supported raster images of at most 20 MiB each are downloaded, subject to robots.txt. Missing images are labeled.",
+    "This is a read-only archive. Comment author names and public comment text are preserved; review before publishing.",
+    "The reading site selects credited writing from the configured personal blogs. Guest posts and excluded collaborative collections remain in the saved source data, not in this site or search. Source-capture counts below are unfiltered; published counts are reported separately.",
+    "Sharing and like widgets are omitted from reading and search; saved source HTML is unchanged. External web links open in a new tab."
+  ],
+  "blogs": [
+    {
+      "slug": "nahar",
+      "url": "https://nahar.wordpress.com",
+      "captured_at": "2026-10-28T10:32:53.027240+00:00",
+      "counts": {
+        "posts": {
+          "expected": 244,
+          "captured": 244
+        },
+        "pages": {
+          "expected": 1,
+          "captured": 1
+        },
+        "comments": {
+          "expected": 2896,
+          "captured": 2855
+        }
+      },
+      "issues": [
+        {
+          "scope": "public HTML",
+          "url": "https://nahar.wordpress.com/2006/05/15/%e0%a4%9a%e0%a4%bf%e0%a4%a0%e0%a5%8d%e0%a4%a0%e0%a4%be%e0%a4%95%e0%a4%be%e0%a4%b0-%e0%a4%ae%e0%a4%bf%e0%a4%a4%e0%a5%8d%e0%a4%b0%e0%a5%8b%e0%a4%82-%e0%a4%95%e0%a5%8b-%e0%a4%a7%e0%a4%a8%e0%a5%8d%e0%a4%a/",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "scope": "public HTML",
+          "url": "https://nahar.wordpress.com/2006/05/13/%e0%a4%97%e0%a4%bf%e0%a4%a8%e0%a5%87%e0%a4%b8-%e0%a4%ac%e0%a5%81%e0%a4%95-%e0%a4%ae%e0%a5%87%e0%a4%82-%e0%a4%a6%e0%a4%be%e0%a4%96%e0%a4%bf%e0%a4%b2-%e0%a4%85%e0%a4%ac-%e0%a4%a4%e0%a4%95-%e0%a4%95%e0%a/",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "scope": "public HTML",
+          "url": "https://nahar.wordpress.com/2006/04/10/%e0%a4%ad%e0%a4%be%e0%a4%b0%e0%a4%a4%e0%a5%80%e0%a4%af-%e0%a4%b8%e0%a4%82%e0%a4%b8%e0%a5%8d%e0%a4%95%e0%a5%83%e0%a4%a4%e0%a5%80-%e0%a4%95%e0%a5%87-%e0%a4%b8%e0%a4%ae%e0%a4%b0%e0%a5%8d%e0%a4%a5%e0%a4%9/",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "scope": "public HTML",
+          "url": "https://nahar.wordpress.com/2006/03/28/%e0%a4%b9%e0%a4%bf%e0%a4%a8%e0%a5%8d%e0%a4%a6%e0%a5%80-%e0%a4%ae%e0%a5%87-%e0%a4%b8%e0%a5%81%e0%a4%a7%e0%a4%be%e0%a4%b0-%e0%a4%95%e0%a5%87-%e0%a4%b2%e0%a4%bf%e0%a4%af%e0%a5%87-%e0%a4%8f%e0%a4%95-%e0%a/",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "scope": "comments",
+          "error": "Sitemap/RSS count mismatch: expected 2896, captured 2855"
+        }
+      ],
+      "comment_count_discrepancies": [
+        {
+          "id": "259",
+          "expected": 13,
+          "captured": 0
+        },
+        {
+          "id": "258",
+          "expected": 5,
+          "captured": 0
+        },
+        {
+          "id": "40",
+          "expected": 14,
+          "captured": 0
+        },
+        {
+          "id": "38",
+          "expected": 1,
+          "captured": 0
+        },
+        {
+          "id": "23",
+          "expected": 2,
+          "captured": 0
+        },
+        {
+          "id": "17",
+          "expected": 6,
+          "captured": 0
+        }
+      ],
+      "orphan_comments": 0,
+      "feed_counts_match": false,
+      "capture_method": "RSS + sitemap + public HTML",
+      "capture_notes": [
+        {
+          "url": "https://nahar.wordpress.com/feed/?paged=9",
+          "note": "Malformed source XML required invalid UTF-8 replacement/control-character removal. Exact response bytes retained in raw snapshots."
+        }
+      ],
+      "unavailable_entries": [
+        {
+          "id": "259",
+          "url": "https://nahar.wordpress.com/2007/03/10/samaybadabalawaan/",
+          "reason": "password-protected"
+        },
+        {
+          "id": "258",
+          "url": "https://nahar.wordpress.com/2007/03/10/teriduniya/",
+          "reason": "password-protected"
+        }
+      ]
+    },
+    {
+      "slug": "mahaphil",
+      "url": "https://mahaphil.blogspot.com",
+      "captured_at": "2026-10-28T10:35:22.938063+00:00",
+      "counts": {
+        "posts": {
+          "expected": 139,
+          "captured": 139
+        },
+        "pages": {
+          "expected": 0,
+          "captured": 0
+        },
+        "comments": {
+          "expected": 1065,
+          "captured": 1065
+        }
+      },
+      "issues": [],
+      "comment_count_discrepancies": [],
+      "orphan_comments": 0,
+      "feed_counts_match": true,
+      "capture_method": "public JSON feeds",
+      "capture_notes": [],
+      "unavailable_entries": []
+    },
+    {
+      "slug": "techchittha",
+      "url": "https://techchittha.blogspot.com",
+      "captured_at": "2026-10-28T10:35:22.938063+00:00",
+      "counts": {
+        "posts": {
+          "expected": 43,
+          "captured": 43
+        },
+        "pages": {
+          "expected": 0,
+          "captured": 0
+        },
+        "comments": {
+          "expected": 272,
+          "captured": 272
+        }
+      },
+      "issues": [],
+      "comment_count_discrepancies": [],
+      "orphan_comments": 4,
+      "feed_counts_match": true,
+      "capture_method": "public JSON feeds",
+      "capture_notes": [],
+      "unavailable_entries": []
+    }
+  ],
+  "published": [
+    {
+      "slug": "nahar",
+      "posts": 244,
+      "pages": 1,
+      "comments": 2855
+    },
+    {
+      "slug": "mahaphil",
+      "posts": 126,
+      "pages": 0,
+      "comments": 933
+    },
+    {
+      "slug": "techchittha",
+      "posts": 43,
+      "pages": 0,
+      "comments": 268
+    }
+  ],
+  "excluded_blogs": [
+    "shrota",
+    "radionamaa"
+  ],
+  "missing_blogs": [],
+  "images": {
+    "referenced": 1205,
+    "preserved": 875,
+    "missing": [
+      {
+        "url": "http://chitthajagat.in/chavi/pravashthiyasuchak.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://i204.photobucket.com/albums/bb146/jitu9968/public/narad.jpg",
+        "reason": "Blocked by robots.txt or unavailable crawl policy"
+      },
+      {
+        "url": "http://i74.photobucket.com/albums/i278/nahar7772/surat2.jpg",
+        "reason": "Blocked by robots.txt or unavailable crawl policy"
+      },
+      {
+        "url": "http://javimoya.com/blog/pics/200604/extensionen.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://lh3.ggpht.com/sagarnahar/SB0z8zDaYoI/AAAAAAAAATY/0yiv0HYg2QQ/s1600-h/ghalib3.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh3.ggpht.com/sagarnahar/SETYNfQtcuI/AAAAAAAAAWc/ps9rwlkzGzE/s1600-h/3.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh3.ggpht.com/sagarnahar/SLVQ1FrdTiI/AAAAAAAAAaA/Z7rsaYYDIRY/s1600-h/52.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh3.ggpht.com/sagarnahar/SLVQ9p-_QvI/AAAAAAAAAag/Nta8vWYLmQc/s1600-h/122.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh3.ggpht.com/sagarnahar/SLVQoA79-aI/AAAAAAAAAZQ/j7ZbiJ6o7fU/s1600-h/1Title2.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh3.ggpht.com/sagarnahar/SLVRFL51_PI/AAAAAAAAAa4/9G-sJUHrVIo/s1600-h/152.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh3.ggpht.com/sagarnahar/SLVRROQV1RI/AAAAAAAAAbo/duugFGui9pE/s1600-h/212.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh3.ggpht.com/sagarnahar/SLVRf2a-74I/AAAAAAAAAcY/V1XNMX2JS08/s1600-h/282.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh3.ggpht.com/sagarnahar/SLVRh8CO4TI/AAAAAAAAAcg/rM08V3wIz-U/s1600-h/302.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh3.ggpht.com/sagarnahar/SLVRmMgJR2I/AAAAAAAAAcw/ZqCHjmT-WY0/s1600-h/332.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh3.ggpht.com/sagarnahar/SOJD9tKKNAI/AAAAAAAAAf4/VZoBrH_Qx5c/s1600-h/Colour%20Tool%5B4%5D.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh4.ggpht.com/sagarnahar/SChiYMpTSGI/AAAAAAAAAUc/ohcfICXqHUo/s1600-h/before14.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh4.ggpht.com/sagarnahar/SDFy_8pTSOI/AAAAAAAAAVc/GEkaoAOKuZ8/s1600-h/is-dil%5B3%5D.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh4.ggpht.com/sagarnahar/SLVQ3OyGrpI/AAAAAAAAAaI/2ak7GywoMkM/s1600-h/82.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh4.ggpht.com/sagarnahar/SLVQsqHEYgI/AAAAAAAAAZg/fVh3fNSz-WQ/s1600-h/32.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh4.ggpht.com/sagarnahar/SLVQwuG8OiI/AAAAAAAAAZw/MG_VFBuNzvw/s1600-h/4.52.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh4.ggpht.com/sagarnahar/SLVRBTjtx8I/AAAAAAAAAaw/f8OqIy3ZlNc/s1600-h/142.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh4.ggpht.com/sagarnahar/SLVRLZed12I/AAAAAAAAAbQ/GL0DKnX5xRI/s1600-h/182.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh4.ggpht.com/sagarnahar/SLVRNkV0kWI/AAAAAAAAAbY/tOuKXONmEaU/s1600-h/192.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh4.ggpht.com/sagarnahar/SLVRkTV9g7I/AAAAAAAAAco/siRbEfWazs4/s1600-h/322.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh5.ggpht.com/sagarnahar/SChiecpTSKI/AAAAAAAAAU8/otBAZ1ULkz0/s1600-h/after%20%20changing%5B3%5D.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh5.ggpht.com/sagarnahar/SLVQ5MfPtWI/AAAAAAAAAaQ/B13ZgpCZM4k/s1600-h/92.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh5.ggpht.com/sagarnahar/SLVQ7iL5jPI/AAAAAAAAAaY/1cWKt0LJ2Vg/s1600-h/112.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh5.ggpht.com/sagarnahar/SLVRHuY9exI/AAAAAAAAAbA/ilsCTGBUnEE/s1600-h/162.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh5.ggpht.com/sagarnahar/SLVRJputfYI/AAAAAAAAAbI/vcIssfcx29E/s1600-h/172.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh5.ggpht.com/sagarnahar/SLVRTeNWgDI/AAAAAAAAAbw/TbADxc2MFw8/s1600-h/222.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh5.ggpht.com/sagarnahar/SOJD_nVom_I/AAAAAAAAAgA/s9U8WJqxvyU/s1600-h/CT2%5B3%5D.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh6.ggpht.com/sagarnahar/SChibspTSII/AAAAAAAAAUs/G4PSwj5eJ8Q/s1600-h/beforekunusingh8.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh6.ggpht.com/sagarnahar/SChihspTSMI/AAAAAAAAAVM/2-ixQo5e6CI/s1600-h/after%20changing%20Kunnu%20Singh%5B3%5D.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh6.ggpht.com/sagarnahar/SETYLPQtcsI/AAAAAAAAAWU/ATAy4zjU768/s1600-h/untitled3.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh6.ggpht.com/sagarnahar/SLVQ_ozaaSI/AAAAAAAAAao/QQ4Ju3Qt-MA/s1600-h/132.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh6.ggpht.com/sagarnahar/SLVQqBFwz6I/AAAAAAAAAZY/T_1GBHT84a8/s1600-h/22.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh6.ggpht.com/sagarnahar/SLVQujWy77I/AAAAAAAAAZo/hC5g-e21fLs/s1600-h/42.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh6.ggpht.com/sagarnahar/SLVQyqgiWbI/AAAAAAAAAZ4/0BPR9j3hY8I/s1600-h/102.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh6.ggpht.com/sagarnahar/SLVRPa9PNCI/AAAAAAAAAbg/7C-WjhaFMNw/s1600-h/202.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh6.ggpht.com/sagarnahar/SLVRVvay2lI/AAAAAAAAAb4/6CM4yAPtQV4/s1600-h/242.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh6.ggpht.com/sagarnahar/SLVRXovaARI/AAAAAAAAAcA/LYo1eYYldvo/s1600-h/252.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh6.ggpht.com/sagarnahar/SLVRccpXhKI/AAAAAAAAAcI/Nqa9k7gj_Nw/s1600-h/262.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh6.ggpht.com/sagarnahar/SLVReC_sYII/AAAAAAAAAcQ/mZ-hSJo1v7Q/s1600-h/272.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lh6.ggpht.com/sagarnahar/SLVRoAyMI2I/AAAAAAAAAc4/PelmvNQ_h8g/s1600-h/342.jpg",
+        "reason": "Not a supported raster image (text/html); source link retained"
+      },
+      {
+        "url": "http://lifehacker.com/assets/resources/2007/05/dl-icon.png",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/47_47.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/48_48.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/49_49.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/50_50.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/51_51.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/52_52.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/53_53.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/55_55.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/56_56.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/57_57.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/58_58.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/59_59.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/60_60.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/61_61.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/62_62.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/63_63.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/64_64.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/66_66.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/69_69.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/70_70.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/71_71.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/72_72.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/73_73.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/74_74.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/75_75.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/77_77.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/angel_smile.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/angry_smile.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/bat.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/beer_mug.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/broken_heart.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/cake.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/camera.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/cat.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/clock.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/coffee.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/confused_smile.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/cry_smile.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/devil_smile.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/dog.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/envelope.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/film.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/girl.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/girl_hug.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/guy.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/guy_hug.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/heart.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/kiss.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/lightbulb.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/martini.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/messenger.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/moon.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/note.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/omg_smile.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/phone.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/present.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/red_smile.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/regular_smile.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/rose.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/sad_smile.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/shades_smile.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/star.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/teeth_smile.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/thumbs_down.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/thumbs_up.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/tongue_smile.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/what_smile.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/wilted_rose.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/wink_smile.gif",
+        "reason": "[Errno 11001] getaddrinfo failed"
+      },
+      {
+        "url": "http://www.awsurveys.com/Pictures/AWS2_ad3_600by100.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://www.chitthajagat.in/images/claim.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://www.cybergifs.com/faces/banana.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://www.cybergifs.com/faces/chowtime.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://www.cybergifs.com/faces/coolsmiley.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://www.cybergifs.com/faces/iluvyousmiley.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://www.cybergifs.com/faces/kissing.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://www.cybergifs.com/faces/smileykiss2.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://www.cybergifs.com/faces/thumbsup2.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://www.cybergifs.com/faces/wave1.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://www.posteritati.com/jpg/E2/EK%20KE%20BAAD%20IN.JPG",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://www.tarakash.com//mambots/content/pcajaxcomment/smilies/smiley.gif",
+        "reason": "<urlopen error timed out>"
+      },
+      {
+        "url": "http://www.toondoo.com//public/nahar7772/toons/cool-cartoon-34940.png",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/akshargram.com/images/anugunj.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/chitthajagat.in/chavi/pravashthiyasuchak.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/i204.photobucket.com/albums/bb146/jitu9968/public/narad.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/i74.photobucket.com/albums/i278/nahar7772/letter.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/i74.photobucket.com/albums/i278/nahar7772/sudhaaji.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/javimoya.com/blog/pics/200604/extensionen.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/lifehacker.com/assets/resources/2007/05/dl-icon.png",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/47_47.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/48_48.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/49_49.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/50_50.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/51_51.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/52_52.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/53_53.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/55_55.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/56_56.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/57_57.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/58_58.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/59_59.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/60_60.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/61_61.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/62_62.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/63_63.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/64_64.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/66_66.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/69_69.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/70_70.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/71_71.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/72_72.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/73_73.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/74_74.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/75_75.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/77_77.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/angel_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/angry_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/bat.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/beer_mug.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/broken_heart.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/cake.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/camera.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/cat.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/clock.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/coffee.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/confused_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/cry_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/devil_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/dog.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/envelope.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/film.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/girl.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/girl_hug.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/guy.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/guy_hug.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/heart.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/kiss.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/lightbulb.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/martini.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/messenger.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/moon.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/note.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/omg_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/phone.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/present.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/red_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/regular_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/rose.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/sad_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/shades_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/star.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/teeth_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/thumbs_down.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/thumbs_up.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/tongue_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/what_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/wilted_rose.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/messenger.msn.com/MMM2006-04-19_17.00/Resource/emoticons/wink_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/nahar.wordpress.com/wp-includes/images/smilies/icon_smile.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/nahar.wordpress.com/wp-includes/images/smilies/icon_wink.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/newsx.com/files/images/Y-S-Rajasekhara-Reddy.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/200/Maa.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/320/Anugunj.0.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/320/Jagdish%20Chandr%20Bose.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/320/Mangal%20Pande.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/320/Nandi.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/320/Saurav.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/320/Savitri-Bai.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/320/amul1.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/320/amul3.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/320/amul4.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/320/amul8.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/320/amul9.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/320/images.0.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/320/paramvir%20chakra.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/320/temple.2.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/Buddha.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/Jallad.0.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/Jallad1.0.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/Jallad1.1.0.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/Jallad3.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/Krurata1.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/Krurata3.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/Krurata4.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/Krurata5.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/Lithops1.1.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/Lithops2.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/Lithops3.0.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/Lithops4.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/image.3.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/krurata2.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/photos1.blogger.com/blogger/4642/2018/400/lithops.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/10.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/100.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/101.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/102.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/103.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/104.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/105.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/106.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/107.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/108.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/14.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/16.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/18.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/19.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/20.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/21.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/23.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/24.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/25.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/26.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/27.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/28.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/29.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/30.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/31.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/32.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/33.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/34.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/35.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/36.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/37.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/38.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/39.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/4.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/40.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/41.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/42.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/43.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/44.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/45.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/46.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/47.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/48.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/49.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/50.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/51.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/52.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/53.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/54.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/55.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/56.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/57.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/58.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/59.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/6.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/60.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/61.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/62.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/63.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/64.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/65.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/66.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/67.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/68.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/69.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/70.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/71.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/72.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/73.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/74.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/75.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/76.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/77.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/78.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/79.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/8.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.cybergifs.com/faces/banana.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.cybergifs.com/faces/chowtime.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.cybergifs.com/faces/coolsmiley.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.cybergifs.com/faces/iluvyousmiley.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.cybergifs.com/faces/kissing.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.cybergifs.com/faces/smileykiss2.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.cybergifs.com/faces/thumbsup2.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.cybergifs.com/faces/wave1.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.tarakash.com//mambots/content/pcajaxcomment/smilies/grin.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.tarakash.com//mambots/content/pcajaxcomment/smilies/kiss.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.tarakash.com//mambots/content/pcajaxcomment/smilies/smiley.gif",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.thehindubusinessline.com/2006/10/30/images/2006103003550101.jpg",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.toondoo.com//public/n/a/h/nahar7772/toons/cool-cartoon-135104.png",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.toondoo.com//public/n/a/h/nahar7772/toons/cool-cartoon-81780.png",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://i0.wp.com/www.toondoo.com//public/nahar7772/toons/cool-cartoon-34940.png",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nahar.wordpress.com/wp-content/uploads/2008/03/.jpg",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://s1.wp.com/wp-content/mu-plugins/wpcom-smileys/uneasy.svg",
+        "reason": "Not a supported raster image (image/svg+xml); source link retained"
+      }
+    ]
+  },
+  "external_media": [
+    {
+      "post": "https://nahar.wordpress.com/2008/07/02/dahej/#comment-2268",
+      "url": "https://hemjyotsana.wordpress.com/2007/03/02/kalpnaaye-saari/embed/#?secret=JJlUKtX8FI#?secret=82Faang7pt",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://nahar.wordpress.com/2008/06/27/greta-tussi-gret-ho/",
+      "url": "https://www.youtube.com/embed/_myo0THV5Oo?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=hi&autohide=2&wmode=transparent",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://nahar.wordpress.com/2008/06/27/greta-tussi-gret-ho/",
+      "url": "https://www.youtube.com/embed/pk0VoPlKfig?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=hi&autohide=2&wmode=transparent",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://nahar.wordpress.com/2007/12/29/little-champ/",
+      "url": "https://www.youtube.com/embed/bSkyfHregFk?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=hi&autohide=2&wmode=transparent",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://nahar.wordpress.com/2007/12/29/little-champ/",
+      "url": "https://www.youtube.com/embed/ZqhhnZNwEcQ?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=hi&autohide=2&wmode=transparent",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://nahar.wordpress.com/2007/12/29/little-champ/",
+      "url": "https://www.youtube.com/embed/V0zmx4-8i8w?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=hi&autohide=2&wmode=transparent",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://nahar.wordpress.com/2007/09/07/rubbish-video-comedy-cirsuc/",
+      "url": "https://www.youtube.com/embed/azhPeCV_6No?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=hi&autohide=2&wmode=transparent",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://nahar.wordpress.com/2007/09/07/rubbish-video-comedy-cirsuc/",
+      "url": "https://www.youtube.com/embed/pWaiy2jXOGw?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=hi&autohide=2&wmode=transparent",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://nahar.wordpress.com/2007/09/07/rubbish-video-comedy-cirsuc/",
+      "url": "https://www.youtube.com/embed/1-Zg6HQLCec?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=hi&autohide=2&wmode=transparent",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://nahar.wordpress.com/2007/08/19/video-ekchabi/",
+      "url": "https://www.youtube.com/embed/1qi3jYioy7s?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=hi&autohide=2&wmode=transparent",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://nahar.wordpress.com/2007/08/19/video-ekchabi/",
+      "url": "https://www.youtube.com/embed/DeIXyCWTCow?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=hi&autohide=2&wmode=transparent",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://nahar.wordpress.com/2006/12/13/hasanahai/#comment-566",
+      "url": "https://nahar.wordpress.com/2006/10/25/radiotv/embed/#?secret=SdsDW6FT3v#?secret=QUwm93QR9B",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://nahar.wordpress.com/2006/05/23/%e0%a4%95%e0%a5%8d%e0%a4%af%e0%a4%be-%e0%a4%86%e0%a4%aa%e0%a4%95%e0%a5%8b-%e0%a4%9c%e0%a5%80%e0%a4%b5%e0%a4%a8-%e0%a4%95%e0%a5%87-%e0%a4%85%e0%a4%ad%e0%a4%be%e0%a4%b5%e0%a5%8b%e0%a4%82-%e0%a4%b8%e0%a5/",
+      "url": "http://dingo.care-mail.com/cards/flash/5409/abc.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2023/07/blog-post.html",
+      "url": "https://www.youtube.com/embed/i4RFYD24uRE",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2020/11/blog-post.html",
+      "url": "https://www.youtube.com/embed/n5KdlTlZ59o",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2020/10/blog-post_19.html",
+      "url": "https://www.youtube.com/embed/tXRmeTQtrLQ",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2020/10/blog-post_19.html",
+      "url": "https://www.youtube.com/embed/XuKahwJxNOk",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2020/10/blog-post.html",
+      "url": "https://www.youtube.com/embed/Vuy4ShsxDNk",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2020/08/blog-post.html",
+      "url": "https://www.youtube.com/embed/QEU1zYvVc0E",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2020/08/blog-post.html",
+      "url": "https://www.youtube.com/embed/bKHEcwiaqyc",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2020/05/blog-post.html",
+      "url": "https://www.youtube.com/embed/lsf26LqJIZ0",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/GD9nq5fDmkY",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/RKK-spLcLMw",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/kfLJbf0y9lI",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/z6QlrUOmpaM",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/L8ht_BXmOp4",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/MvjMiry6ZvA",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/1QpOPTQo8CQ",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/f-xAMX9j2jY",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/CuTy9SfVHiM",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/_94lmNp8Axo",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/MJ8hE0i-veo",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/Bex_cAPHMO8",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/yahnWJo2LQY",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/Rpj-4kxeSvo",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/AFSU6e7qOEk",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/vFRwyT5-qD4",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/G6MEplG_tM8",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/gXtxRExROL8",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/CTNsg-mz8Ys",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/j6XgOqVki6A",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/C5PEch2YeFk",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/uCvCSAV7oK8",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/UV-mCGn1vuY",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/4e5f3vtiRFI",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/Zk5FcbueWfU",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/bmpREt4ePOQ",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/O3x7ZhWU2uA",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/p-7NJ1lWZAE",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/90.html",
+      "url": "https://www.youtube.com/embed/TAb9IktpLGY",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/09/blog-post.html",
+      "url": "https://www.youtube.com/embed/ofhb59IxbDY",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/08/blog-post16.html",
+      "url": "https://www.youtube.com/embed/8WJG7IfVqig",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/08/blog-post_20.html",
+      "url": "https://www.youtube.com/embed/rT3mSlycayY",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/08/blog-post_20.html",
+      "url": "https://www.youtube.com/embed/GX1BmOZeL_M",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/08/blog-post.html",
+      "url": "https://www.youtube.com/embed/i97GpZaoVBQ",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/05/blog-post_21.html",
+      "url": "https://www.youtube.com/embed/EsFjZJ6bkPI",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/05/blog-post.html",
+      "url": "https://www.youtube.com/embed/vn9lkiMT5ks",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/05/blog-post.html",
+      "url": "https://www.youtube.com/embed/9Q8bWrtIi6A",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/05/blog-post.html",
+      "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/275781815&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/05/blog-post_16.html",
+      "url": "https://www.youtube.com/embed/_boBHuf1i88",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2019/05/blog-post_16.html",
+      "url": "https://www.dailymotion.com/embed/video/x2hnjf8",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2018/06/blog-post.html",
+      "url": "https://www.youtube.com/embed/jl4TVkL53b0",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2016/08/blog-post.html",
+      "url": "https://www.youtube.com/embed/bjZXoeAmr7M",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2015/09/blog-post.html",
+      "url": "https://www.youtube.com/embed/u7R4kdCi1zY",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2014/06/blog-post.html",
+      "url": "https://www.youtube.com/embed/kfLJbf0y9lI",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2014/01/blog-post.html",
+      "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129477817&color=ff6600&auto_play=false&show_artwork=true",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2013/10/blog-post.html",
+      "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116960214",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2013/02/blog-post.html",
+      "url": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F78499802",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2013/02/blog-post.html",
+      "url": "https://www.youtube.com/embed/vn3bQeWfuFg",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2013/02/materimamta.html",
+      "url": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F77394897",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2013/02/materimamta.html",
+      "url": "http://www.youtube.com/embed/kL-7VRzM9Kc",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2013/01/blog-post.html",
+      "url": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F77123545",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2013/01/blog-post.html",
+      "url": "http://www.youtube.com/embed/SONYPbqXOWA",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2012/12/blog-post.html",
+      "url": "http://www.youtube.com/embed/hIOa4DfV6Yw",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2012/10/jarechandra.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=19721082-107",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2012/10/jarechandra.html",
+      "url": "http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F62278642&show_artwork=true",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2012/07/blog-post.html",
+      "url": "http://www.youtube.com/embed/yqHxNTjY_Vc?feature=player_embedded",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2012/07/blog-post.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=19187375-804",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2012/07/blog-post.html",
+      "url": "http://www.youtube.com/embed/C05k714hsFQ?feature=player_embedded",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2012/02/blog-post.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=14286096-33e",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2011/09/blog-post.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=15823966-789",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2011/07/blog-post.html",
+      "url": "http://www.divshare.com/flash/audio_embed?data=YTo2OntzOjU6ImFwaUlkIjtzOjE6IjQiO3M6NjoiZmlsZUlkIjtzOjg6IjE1MzU4MjcxIjtzOjQ6ImNvZGUiO3M6MTI6IjE1MzU4MjcxLWJiYyI7czo2OiJ1c2VySWQiO3M6NzoiMTQzMDYwNCI7czoxMjoiZXh0ZXJuYWxDYWxsIjtpOjE7czo0OiJ0aW1lIjtpOjEzMTEyNjQxODg7fQ==&autoplay=default",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2011/04/blog-post.html",
+      "url": "http://www.youtube.com/embed/cVqm4d46c1M",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2011/04/blog-post.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=14495270-4ee",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2011/03/blog-post_29.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=14430990-1eb",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2011/03/blog-post_29.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=14430991-50b",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2011/03/blog-post.html",
+      "url": "http://www.divshare.com/flash/audio_embed?data=YTo2OntzOjU6ImFwaUlkIjtzOjE6IjQiO3M6NjoiZmlsZUlkIjtzOjg6IjE0NDAyNzg4IjtzOjQ6ImNvZGUiO3M6MTI6IjE0NDAyNzg4LTE4YiI7czo2OiJ1c2VySWQiO3M6NzoiMTQzMDYwNCI7czoxMjoiZXh0ZXJuYWxDYWxsIjtpOjE7czo0OiJ0aW1lIjtpOjEzMDEwNzAyOTc7fQ==&autoplay=default",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2011/03/blog-post.html",
+      "url": "http://www.youtube.com/embed/j8BvD6NzDsc",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2010/08/blog-post.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=12388612-c94",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2010/06/blog-post.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=11791855-af0",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2010/02/blog-post_22.html",
+      "url": "http://www.youtube.com/v/vji36gxM9-g&hl=en_US&fs=1&color1=0x234900&color2=0x4e9e00",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2010/02/blog-post_22.html",
+      "url": "http://www.youtube.com/v/FS39rjdSF2c&hl=en_US&fs=1&color1=0x234900&color2=0x4e9e00",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2010/02/blog-post_22.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=10543116-795",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2010/02/blog-post_22.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=10543216-d6c",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2010/02/blog-post_14.html",
+      "url": "http://www.youtube.com/embed/EvqkiAPLq_w",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2010/02/blog-post_14.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=10459166-ad4",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2010/02/blog-post_14.html",
+      "url": "https://www.youtube.com/embed/Z4gKNPDagH4?si=P4W-TZtosH2ydbqV",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2010/01/101.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=15511243-4b7",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/12/blog-post_30.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=9960314-670",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/12/blog-post.html",
+      "url": "https://www.divshare.com/flash/playlist?myId=9946548-ec0",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/12/blog-post.html",
+      "url": "https://www.youtube.com/embed/HFWkGa7EMOU",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/11/blog-post.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=9109726-b08",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/11/blog-post.html",
+      "url": "https://www.youtube.com/embed/ZSyrjveic3Y",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/10/blog-post.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/10/blog-post.html",
+      "url": "http://www.divshare.com/download/9014384-852",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/10/blog-post.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=9014384-852",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/09/blog-post_28.html",
+      "url": "http://sagarnahar.googlepages.com/smarshilgokulsare.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/09/blog-post_28.html",
+      "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/304742190&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/09/blog-post_05.html",
+      "url": "http://www.youtube.com/v/EGZIvsn8FWA&hl=en&fs=1&",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/09/blog-post.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=8338807-3b4",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/09/blog-post.html",
+      "url": "http://www.youtube.com/embed/jC5Ccb99gFk",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/08/blog-post_25.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=8277417-a2e",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/08/blog-post_25.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=8277535-7a7",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/08/blog-post_25.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=8277416-029",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/08/blog-post_25.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=8277419-f89",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/08/blog-post_25.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=8277537-c8e",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/08/blog-post_25.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=8277418-054",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/08/blog-post_25.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=8277536-141",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/08/blog-post_25.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=8277415-41c",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/08/blog-post.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=8115102-795",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/07/blog-post_21.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=7949480-977",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/07/blog-post_21.html",
+      "url": "http://www.esnips.com//escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/07/blog-post_13.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=7892525-81b",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/07/blog-post_13.html",
+      "url": "http://www.esnips.com//escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/07/blog-post_12.html",
+      "url": "http://sagarnahar.googlepages.com/Kaisebhayesakhi_Lata_1954_PehliJhala.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/07/blog-post_12.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=7875914-a62",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/07/blog-post_12.html",
+      "url": "http://www.esnips.com//escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/07/blog-post_11.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=7874221-81e",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/07/blog-post_11.html",
+      "url": "http://www.esnips.com//escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/07/blog-post_09.html",
+      "url": "http://www.esnips.com//escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/07/blog-post_09.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=7857628-d95",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/07/blog-post.html",
+      "url": "https://www.youtube.com/embed/tWNE2qzXJ2c",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/06/blog-post.html",
+      "url": "http://res0.esnips.com/escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/06/blog-post.html",
+      "url": "http://www.youtube.com/embed/RlZxKsJUVUk",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/06/1951.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/06/1951.html",
+      "url": "http://sagarnahar.googlepages.com/ozindagikemalik_Lata_Nazneen1951.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/05/blog-post.html",
+      "url": "https://www.youtube.com/embed/Pp6__WJLX7Q",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/05/blog-post.html",
+      "url": "https://www.youtube.com/embed/4HrMO_SMYGM",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/05/blog-post.html",
+      "url": "http://fb.esnips.com//escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/04/blog-post_28.html",
+      "url": "http://fb.esnips.com//escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/04/blog-post_27.html",
+      "url": "https://www.youtube.com/embed/jDOLyi4y7qk",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/04/blog-post.html",
+      "url": "http://www.filefreak.com/pfiles/91370/Meera Bai/Phagun ke din Chaar.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/04/blog-post.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/04/blog-post.html",
+      "url": "http://www.youtube.com/embed/cuTYWNB9WUg",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/04/blog-post.html",
+      "url": "http://www.filefreak.com/pfiles/91370/Meera%20Bai/Phagun%20ke%20din%20Chaar.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/03/blog-post_26.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/03/blog-post_26.html",
+      "url": "http://www.filefreak.com/pfiles/91370/sundarata%20ke%20sabhi%20pujari%20Talat%20Mahmood.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/03/blog-post_26.html",
+      "url": "http://www.filefreak.com/pfiles/91370/sundarata ke sabhi pujari Talat Mahmood.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/03/blog-post_25.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/03/blog-post_25.html",
+      "url": "http://www.filefreak.com/pfiles/91370/Deenan_Dukh_Haran_Dev__Surdas.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/03/blog-post_25.html",
+      "url": "http://www.esnips.com//escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/03/blog-post_21.html",
+      "url": "http://www.youtube.com/v/11Jbszok0WA&hl=en&fs=1&color1=0x234900&color2=0x4e9e00&border=1",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/03/blog-post_21.html",
+      "url": "http://www.youtube.com/v/4buSyWAqsDA&hl=en&fs=1&color1=0x234900&color2=0x4e9e00&border=1",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/03/blog-post.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/03/blog-post.html",
+      "url": "http://sagarnahar.googlepages.com/rafi-english-nonfilm-song-02.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/02/blog-post_24.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/02/blog-post_24.html",
+      "url": "http://sagarnahar.googlepages.com/Tareephuskhudaki.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/02/blog-post.html",
+      "url": "http://www.esnips.com//escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/01/blog-post_29.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2009/01/blog-post_29.html",
+      "url": "http://sagarnahar.googlepages.com/Yahinbaharhai_Lata_1952_Raagrang.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/12/blog-post_21.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/12/blog-post_21.html",
+      "url": "http://sagarnahar.googlepages.com/Talat_mahmood_Aajusephirdekhahai_non.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/11/1.html",
+      "url": "http://www.youtube.com/v/_Bpwht25TcQ&hl=en&fs=1",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/11/1.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/11/1.html",
+      "url": "http://suresh.chiplunkar.googlepages.com/GaadiwaleGaadiDheerehaankre.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/11/blog-post_26.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/11/blog-post_26.html",
+      "url": "http://hindi-films-songs.com/hcjsongs/1950_Maang 1950_125_01 Eh dil-e-bekarar_Lata.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/11/blog-post_18.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/11/blog-post_18.html",
+      "url": "http://sagarnahar.googlepages.com/Khelandogingaur.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/11/blog-post.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/11/blog-post.html",
+      "url": "http://www.divshare.com/flash/playlist?myId=16171295-83b",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/11/blog-post.html",
+      "url": "http://sagarnahar.googlepages.com/1949_Ladlee1949__Garibonkahissagarib.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/10/blog-post_23.html",
+      "url": "http://sagarnahar.googlepages.com/KajrariMatwarimadbhari.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/10/blog-post_23.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/10/blog-post_18.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/10/blog-post_18.html",
+      "url": "http://www.youtube.com/embed/jgUTK_tKJhA",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/10/blog-post_18.html",
+      "url": "http://sagarnahar.googlepages.com/zamaneMainAjiAiseNadanHotehai.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/10/blog-post.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://sureshchip.lifelogger.com/media/audio0/852854_utaemuqypj_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/09/blog-post_23.html",
+      "url": "http://web.splashcast.net/go/so/1/c/WNOB8650CD",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/09/blog-post_21.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/09/blog-post_21.html",
+      "url": "http://sagarnahar.googlepages.com/Mauseqaar_1962-NoorJehanSalamatAli-J.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/09/blog-post_21.html",
+      "url": "http://sagarnahar.googlepages.com/AAINTEZARHAITERA-BadiMaa-Noorjahan.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/09/blog-post_6660.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/839514_hmsgorgoaj_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/09/blog-post_12.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/09/blog-post_12.html",
+      "url": "http://sagarnahar.googlepages.com/PanchiBawara.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/09/blog-post_12.html",
+      "url": " http://sagarnahar.googlepages.com/PanchiBawara.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/09/blog-post.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/09/blog-post.html",
+      "url": "http://sagarnahar.googlepages.com/talat_mahmood_ek_naya_anmol_jeevan_F.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/09/blog-post.html",
+      "url": " http://sagarnahar.googlepages.com/talat_mahmood_ek_naya_anmol_jeevan_F.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/08/blog-post_4570.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/08/blog-post_4570.html",
+      "url": "http://sagarnahar.googlepages.com/koigatamainsojata_Yesudas_jaidev_Ala.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/08/blog-post_4570.html",
+      "url": "http://sagarnahar.googlepages.com/MataSaraswatiSharada.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/08/blog-post_18.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/08/blog-post_18.html",
+      "url": "http://www.youtube.com/embed/9RYYQIyUuiU",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/08/blog-post_18.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/818633_xugnorqhoq_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/08/blog-post_18.html",
+      "url": "http://sagarnahar.googlepages.com/1959-NaNanaBarasobadal_lataJi_Vasant.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/08/blog-post_09.html",
+      "url": "http://www.youtube.com/embed/3knhQzQpPqo",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/08/blog-post_09.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/812678_erlpfjemtw_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/06/blog-post.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/771153_zgactfbjcz_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/06/blog-post.html",
+      "url": "http://www.archive.org/audio/xspf_player.swf?autoload=true&playlist_url=http%3A%2F%2Fwww.archive.org%2Faudio%2Fxspf-maker.php%3Fidentifier%3DAiMereHumsafar%26playlist%3Dhttp%253A%252F%252Fwww.archive.org%252Fdownload%252FAiMereHumsafar%252Fformat%253DVBR%2BM3U",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/05/blog-post_31.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/742412_uojtffqmce_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/05/blog-post_31.html",
+      "url": "http://www.archive.org/audio/xspf_player.swf?autoload=true&playlist_url=http%3A%2F%2Fwww.archive.org%2Faudio%2Fxspf-maker.php%3Fidentifier%3DHameMaarChalaYeKhayalYeGam%26playlist%3Dhttp%253A%252F%252Fwww.archive.org%252Fdownload%252FHameMaarChalaYeKhayalYeGam%252Fformat%253DVBR%2BM3U",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/05/blog-post_30.html",
+      "url": "http://www.youtube.com/embed/4Tf22qIRDFo",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/05/blog-post_30.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/741526_uztdvosqjp_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/05/blog-post_28.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/737304_inugcweqlq_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/05/blog-post_28.html",
+      "url": "https://www.youtube.com/embed/JNGFa9f2aPo",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/05/blog-post_28.html",
+      "url": "http://www.archive.org/audio/xspf_player.swf?autoload=true&playlist_url=http%3A%2F%2Fwww.archive.org%2Faudio%2Fxspf-maker.php%3Fidentifier%3DMilaDilMilakeTutaJaRahaHai%26playlist%3Dhttp%253A%252F%252Fwww.archive.org%252Fdownload%252FMilaDilMilakeTutaJaRahaHai%252Fformat%253DVBR%2BM3U",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/05/blog-post_23.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/733191_adwdwvzqtm_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/05/blog-post_19.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/729517_xyxafgiauz_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/05/blog-post_14.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/724946_xiaauhyquc_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/05/blog-post_08.html",
+      "url": "http://www.archive.org/audio/xspf_player.swf?autoload=true&playlist_url=http%3A%2F%2Fwww.archive.org%2Faudio%2Fxspf-maker.php%3Fidentifier%3DDevtaTumHo%26playlist%3Dhttp%253A%252F%252Fwww.archive.org%252Fdownload%252FDevtaTumHo%252Fformat%253DVBR%2BM3U",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/05/blog-post_08.html",
+      "url": "http://www.youtube.com/v/1T9nDmTiMqc&hl=en&fs=1&",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/05/blog-post_06.html",
+      "url": "https://www.youtube.com/embed/ZDDHU3nxoJg",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/05/blog-post.html",
+      "url": "http://www.youtube.com/embed/vDhNxWsWYYc",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/04/blog-post_28.html",
+      "url": "http://www.archive.org/audio/xspf_player.swf?autoload=true&playlist_url=http%3A%2F%2Fwww.archive.org%2Faudio%2Fxspf-maker.php%3Fidentifier%3DYeNaThiHamariKismat%26playlist%3Dhttp%253A%252F%252Fwww.archive.org%252Fdownload%252FYeNaThiHamariKismat%252Fformat%253DVBR%2BM3U",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/04/blog-post_11.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/696283_zklkeyrdri_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/04/blog-post.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/678332_ovsfamtrdo_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/04/blog-post.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/678333_psmlioynyn_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/03/blog-post.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/678006_dluyzgychy_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/02/blog-post_16.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/653376_pkvzqhihrx_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/02/blog-post_08.html",
+      "url": "https://www.youtube.com/embed/Yo1Wl-qEjfg",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/02/blog-post.html",
+      "url": "http://res0.esnips.com/escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/02/blog-post.html",
+      "url": "https://www.youtube.com/embed/PC--hUROEWw",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/01/blog-post_26.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/638145_mucgocniji_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/01/blog-post_23.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/634240_cdgmtdrqvt_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/01/blog-post_23.html",
+      "url": "https://www.youtube.com/embed/OKmUqcy8imI",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/01/blog-post_21.html",
+      "url": "http://res0.esnips.com/escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/01/blog-post_21.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/631241_fjownakfea_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/01/blog-post_10.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/622221_odbajephcq_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/01/blog-post_10.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/622222_nmpfxvryzq_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/01/blog-post_10.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/622223_otvpywueay_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2008/01/blog-post.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/620642_dtpeirlkuo_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/11/blog-post_28.html",
+      "url": "http://tahuko.com/wp-content/plugins/audio-player/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/11/blog-post_28.html",
+      "url": "https://tahuko.com/wp-content/plugins/audio-player/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/11/blog-post_28.html",
+      "url": "https://www.youtube.com/embed/QAf4mfEJn4Q",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/11/blog-post_28.html",
+      "url": "http://tahuko.com/tahuka/PRIYA PAPA HAVE TO.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/11/blog-post_28.html",
+      "url": "https://www.youtube.com/embed/BqX-YfdHIYY",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/11/blog-post_20.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/583463_imoqctezgs_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/11/blog-post_20.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/583464_zamhivudst_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/11/blog-post.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/579241_vnfjvhledy_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/11/blog-post.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/579231_iismfrmtxw_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/11/blog-post.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/579239_wemfzqdwjn_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/11/blog-post.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/579232_jsfupkqzwd_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/10/blog-post.html",
+      "url": "http://www.youtube.com/v/lbganzlCyAQ&rel=1",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/10/blog-post.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/562484_hqrapbtcis_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/09/blog-post_28.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/536866_ydcjrlndbc_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/09/blog-post_26.html",
+      "url": "http://res0.esnips.com/escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/09/blog-post_26.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/535134_locmibvges_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/09/blog-post_18.html",
+      "url": "http://res0.esnips.com/escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/09/blog-post_13.html",
+      "url": "http://res0.esnips.com/escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/09/blog-post.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/512720_mppcjlsvds_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/09/blog-post.html",
+      "url": "http://res0.esnips.com/escentral/images/widgets/flash/esnips_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/08/blog-post_30.html",
+      "url": "http://res0.esnips.com/escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/08/blog-post_28.html",
+      "url": "http://res0.esnips.com/escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/08/blog-post_27.html",
+      "url": "http://res0.esnips.com/escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/08/blog-post_27.html",
+      "url": "http://lifelogger.com/common/flash/flvplayer/flvplayer_basic.swf?file=http://mahaphil.lifelogger.com/media/audio0/506418_xpgururzmp_conv.flv&autoStart=false",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/08/blog-post_5339.html",
+      "url": "http://www.esnips.com//escentral/images/widgets/flash/esnips_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/08/blog-post_24.html",
+      "url": "http://res0.esnips.com/escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/08/blog-post.html",
+      "url": "http://res0.esnips.com/escentral/images/widgets/flash/note_player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://mahaphil.blogspot.com/2007/08/blog-post.html",
+      "url": "http://www.youtube.com/embed/fN4M8El9vkw",
+      "status": "click-to-load stream; not archived; availability not verified"
+    },
+    {
+      "post": "https://techchittha.blogspot.com/2009/04/flv-mp3.html",
+      "url": "http://technorati.com/tags/How%20to%20convert%20.flv%20Video%20file%20in%20to%20.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://techchittha.blogspot.com/2008/11/blog-post.html",
+      "url": "http://sagarnahar.googlepages.com/player.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://techchittha.blogspot.com/2008/11/blog-post.html",
+      "url": "http://sagarnahar.googlepages.com/MataSaraswatiSharada.mp3",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://techchittha.blogspot.com/2008/06/blog-post.html",
+      "url": "http://res1.esnips.com/escentral/images/widgets/flash/white_player_list.swf",
+      "status": "external; availability not verified"
+    },
+    {
+      "post": "https://techchittha.blogspot.com/2007/12/blog-post_8824.html",
+      "url": "http://wp.vizu.com/vizu_poll.swf",
+      "status": "external; availability not verified"
+    }
+  ]
+}
